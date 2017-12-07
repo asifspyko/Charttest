@@ -1,0 +1,49 @@
+/* Reset -------------------------------------------------- */
+html { margin: 0; padding: 0; border: 0;} body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,
+caption,article,aside,dialog,figure,footer,header,hgroup,nav,section,input { margin: 0; padding: 0; border: 0; }
+article,aside,dialog,figure,footer,header,hgroup,nav,section { display: block; }
+blockquote:before,blockquote:after,q:before,q:after { content: ''; }
+blockquote, q { quotes: "" ""; }
+a img { border: none; }
+:focus { outline: 0; }
+a:focus { outline: none; }
+/* Global -------------------------------------------------- */
+body { color: #000; font-size: 14px; line-height: 21px; font-family: 'Roboto', sans-serif;}
+/* Global Css for headings, p and achors */
+h1,h2,h3,h4,h5,h6 { padding: 0; margin: 0; }
+h1 { }
+h2 { }
+h3 { }
+h4 { }
+h5 { }
+h6 { }
+p { }
+a{ text-decoration: none!important; }
+button {  }
+ul,ul li,ul ol,ul li ul,ul li ul li { list-style: none; padding: 0; margin: 0; }
+* {  box-sizing: border-box; }
+.clear {clear:both;}
+.right { float: right; }
+.left { float: left; }
+.fade-out{ display: none;}
+
+
+/*---------------------------------------------------------------*/
+.container{ max-width:1600px; margin:0 auto; padding:0 0px; }
+.charts-content{ background:#f9f9f9; padding:100px 100px; }
+.charts-content .chart-block{ border-radius:5px; background:#fff; -webkit-box-shadow:0px 5px 16px -2px rgba(0,0,0,0.75); -moz-box-shadow:0px 5px 16px -2px rgba(0,0,0,0.75); box-shadow:0px 5px 16px -2px rgba(0,0,0,0.75); padding:10px; }
+ .charts-content .chart-block .chart-block-header{ padding:0px 6px 0px 26px; margin:0 -10px; border-bottom:1px solid #dadee1; }
+.charts-content .chart-block .chart-block-header .chart-description{ float:left; width:70%; }
+.charts-content .chart-block .chart-description span{ display:block; color:#7a8e99; font-size:16px; }
+.charts-content .chart-block .chart-description h3{ font-size:18px; font-weight:500; color:#2c3c53; margin:0; padding:5px 0px; text-transform:capitalize; }
+.charts-content .chart-block .choose-criteria{ float:right; width:30%; text-align:right; padding-top:7px; }
+.charts-content .chart-block .choose-criteria li{ list-style:none; display:inline-block; }
+.charts-content .chart-block .choose-criteria li a{ text-decoration:none; font-size:17px; color:#7a8e99; }
+.charts-content .chart-block .choose-criteria li ul{ left:auto; right:0; top:30px; }
+.charts-content .chart-block .choose-criteria li ul.dropdown-menu li { display:block; }
+.charts-content .chart-block .chart-block-footer{ padding:10px 25px 0px; margin:10px -10px 0; border-top:1px solid #dadee1; }
+.charts-content .chart-block .chart-block-footer span{ color:#7a8e99; font-size:16px; }
+.charts-content .chart-block .chart-block-footer a{ color:#7a8e99; font-size:16px; display:inline-block; }
+.charts-content .chart-block .user-profile-images ul{ font-size:0; padding-left:70px; }
+.charts-content .chart-block .user-profile-images ul li{ display:inline-block; width:10%; }
+.charts-content .chart-block .user-profile-images ul li a{ text-align:center; display:block; }
